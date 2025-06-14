@@ -1,0 +1,107 @@
+body {
+    background-image: url('https://i.pinimg.com/564x/1b/b2/a6/1bb2a61fee3e2142e6f79358bfd48f97.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: #FFF0F5;
+    width:100%;
+    text-decoration: none;
+    cursor: pointer;
+    padding:50px;
+}
+
+li a:hover {
+    color: #ff1493;
+}
+
+.full {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.left {
+    position: initial;
+    background-color: #508C8C;
+    padding: 100px;
+
+}
+
+.right {
+    position: initial;
+    background-color: #C8E2DF;
+    padding: 100px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: #a0d6b4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+.img {
+    width: 320px;
+    height: 170px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.grid-container > .img {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.final {
+    display: block;
+    padding: 50px;
+    background-color: #FFF0F5;
+    width: 92%;
+}
+
+.button {
+    background-color: pink;
+    color: solidblack;
+    padding: 10px 25px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
